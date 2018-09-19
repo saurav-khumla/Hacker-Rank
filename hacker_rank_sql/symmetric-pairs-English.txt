@@ -1,0 +1,18 @@
+* When x equals y, if (x, y) appears at least twice, the pair should be included in the output
+
+SELECT f1.X, f1.Y FROM Functions AS f1 
+WHERE f1.X = f1.Y GROUP BY f1.X, f1.Y HAVING COUNT(*) > 1
+
+* When x is not equal to y, we can use 2 Functions tables, one to iterate all records and the other to search for symmetric pairs:
+
+select f1.x,f1.y from Functions f1,Functions f2
+where f1.x<>f1.y and f1.x=f2.y and f1.y=f2.x and f1.x<f2.x
+
+final soltion: 
+
+select f1.x,f1.y
+from Functions f1
+where f1.x=f1.y group by f1.x,f1.y having count(*)>1
+union 
+select f1.x,f1.y from Functions f1,Functions f2
+where f1.x<>f1.y and f1.x=f2.y and f1.y=f2.x and f1.x<f2.x

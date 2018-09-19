@@ -1,0 +1,7 @@
+-- ms sql server
+
+select CEILING (AVG (cast ((Salary) as decimal)) - AVG (cast ((replace(salary, '0','')) as decimal)))   from employees;
+
+-- mysql
+
+SELECT CEIL(AVG(SALARY)-AVG(REPLACE(SALARY,'0',''))) FROM EMPLOYEES;
