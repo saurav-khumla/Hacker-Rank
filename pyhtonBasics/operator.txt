@@ -1,3 +1,9 @@
 ** is use for power
 // is use for intiger division or floored quotient
 (*,/,+,-) are same as mathmatics
+
+
+precedence of operators
+**
+*,/,//,%
++,-
