@@ -9,10 +9,13 @@ precedence of operators
 +,-
 
 
-comparision operator are applicable with integer and floating point.
-==
-!=
+below comparision operator are applicable with integer and floating point.
+
 <
 >
 <=
 >=
+
+below can work for all data types
+!=
+==
