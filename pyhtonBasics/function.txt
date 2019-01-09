@@ -1,0 +1,2 @@
+input() function always gives string value from user input.
+
