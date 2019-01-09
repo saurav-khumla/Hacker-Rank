@@ -7,3 +7,12 @@ precedence of operators
 **
 *,/,//,%
 +,-
+
+
+comparision operator are applicable with integer and floating point.
+==
+!=
+<
+>
+<=
+>=

@@ -1,0 +1,14 @@
+string values is completely diferent from integer/floating-point values.
+But integer can be equal to a floating point.
+
+>>> 42=='42'
+False
+
+>>>42==42.0
+True
+
+>>>42.0==0042.000
+True
+
+
+Python makes this distinction because string are text, while integers and floats are both numbers.
