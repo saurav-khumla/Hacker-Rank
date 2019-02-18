@@ -1,0 +1,6 @@
+print('abc','cdf')
+print('newline')
+print('stop new liner by end',end='')
+print('\tafter end='' same line')
+print('abc','zyx',sep=',')
+print('separator is used to separate data ')
