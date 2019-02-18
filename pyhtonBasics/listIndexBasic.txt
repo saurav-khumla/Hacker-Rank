@@ -1,0 +1,25 @@
+While indexes start at 0 and go up, you can also use negative integers for
+the index. The integer value -1 refers to the last index in a list, the value -2
+refers to the second-to-last index in a list, and so on.
+
+spam = ['cat', 'bat', 'rat', 'elephant']
+>>> spam[-1]
+'elephant'
+>>>spam[3]
+'elephant'
+
+
+#Getting Sublists with Slices:
+
+A slice is typed between square brackets,
+like an index, but it has two integers separated by a colon.
+
+spam[1:4] is a list with a slice (two integers).
+
+>>> spam = ['cat', 'bat', 'rat', 'elephant']
+>>> spam[0:4]
+['cat', 'bat', 'rat', 'elephant']
+>>> spam[1:3]
+['bat', 'rat']
+>>> spam[0:-1]
+['cat', 'bat', 'rat']
