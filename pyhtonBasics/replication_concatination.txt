@@ -1,0 +1,23 @@
++ is used on two string valuess, it joins the strings as the string concatination operator.
+>> 'abc'+'def'
+'abcdef'
+
+------******-----------------
+
+string and integer can't operate + together.
+>>'abc'+123
+typeError: can't convert 'int' objet to str implicity.
+
+
+------******---------------------
+
+* operator is used on one string value and one integer value ,it becomes the string replication operator.
+>> 'abc' *2
+'abcabc'
+
+
+
+
+
+
+

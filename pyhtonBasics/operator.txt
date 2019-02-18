@@ -1,0 +1,21 @@
+** is use for power
+// is use for intiger division or floored quotient
+(*,/,+,-) are same as mathmatics
+
+
+precedence of operators
+**
+*,/,//,%
++,-
+
+
+below comparision operator are applicable with integer and floating point.
+
+<
+>
+<=
+>=
+
+below can work for all data types
+!=
+==

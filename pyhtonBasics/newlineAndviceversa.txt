@@ -1,0 +1,18 @@
+print('Hello')
+print('World')
+
+o/p:
+Hello
+World
+
+
+The two strings appear on separate lines because the print() function
+automatically adds a newline character to the end of the string it is passed.
+However, you can set the end keyword argument to change this to a different
+string. For example, if the program were this:
+
+print('Hello', end='')
+print('World')
+
+o/p:
+HelloWorld

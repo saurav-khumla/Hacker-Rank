@@ -1,0 +1,9 @@
+variable is overwriting. old value is forgotten once new value assigned to variable.
+
+
+
+invalid variable name:
+hyphens,space,special characters except (_) ,can't begin with a number.
+
+variable name are case-sensitive. means spam,SPAM,Spam,sPaM are four different variables.
+

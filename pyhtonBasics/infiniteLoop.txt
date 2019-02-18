@@ -1,0 +1,2 @@
+if you ever run a program that has a bug causing it to get stuck in an infinite loop press CTRL-c.
+this will send a keyboardInterrupt error to your program and cause it to stop immediately.

@@ -1,0 +1,17 @@
+print() returns None.
+The print() function displays
+text on the screen, but it doesn’t need to return anything into the variable.
+
+Ex:
+spam = print('Hello!')
+Hello!
+>>> None == spam
+True
+
+
+
+Python adds return None to the end of any function
+definition with no return statement. This is similar to how a while or for
+loop implicitly ends with a continue statement. Also, if you use a return statement
+without a value (that is, just the return keyword by itself), then None is
+returned.
