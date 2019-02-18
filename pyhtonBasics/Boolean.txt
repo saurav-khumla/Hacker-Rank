@@ -1,0 +1,8 @@
+Boolean data type has only two values: True
+and False.
+they
+always start with a capital T or F,
+
+
+What are the three Boolean operators?
+and,Or,not

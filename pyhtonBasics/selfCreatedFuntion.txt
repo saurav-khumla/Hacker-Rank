@@ -1,0 +1,20 @@
+1:
+def is use for creation of funtion:
+
+def hello():
+   print('hello function is created')
+
+we can call above function by hello().
+
+
+
+
+A major purpose of functions is to group code that gets executed multiple
+times. Without a function defined, you would have to copy and paste
+this code each time.
+
+2:
+def Statements with Parameters:
+ #When you call the print() or len() function, you pass in values, called arguments
+    in this context, by typing them between the parentheses.
+ #Own functions that accept arguments.
